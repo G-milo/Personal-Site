@@ -264,7 +264,7 @@ body {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 372px) {
     .cv_wrapper .cv_left .cv_profile .cv_info{
         display: block;
     }
