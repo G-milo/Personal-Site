@@ -204,6 +204,10 @@ body {
     display: none;
 }
 
+.cv_wrapper .cv_right .cv_JobExperience .cv_data .year:after {
+    height: 60%;
+}
+
 .cv_wrapper .cv_right .cv_interests .cv_info {
     display: flex;
     justify-content: space-between;
@@ -257,5 +261,15 @@ body {
     }
     .cv_wrapper .cv_right .interests .icon {
         font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .cv_wrapper .cv_left .cv_profile .cv_info{
+        display: block;
+    }
+
+    .cv_wrapper .cv_left .cv_profile .cv_info .cv_subtitle{
+        color: #0175b2;
     }
 }
